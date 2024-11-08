@@ -36,7 +36,7 @@ export default function CreateTaskModal({
 
   useEffect(() => {
     $data.projectId = id;
-  }, [id])
+  }, [id, $data])
 
   const formattedProjects = useMemo(() => projects.map(project => (
     { label: project.name, value: project._id }
