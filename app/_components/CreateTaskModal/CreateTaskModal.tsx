@@ -67,7 +67,7 @@ export default function CreateTaskModal({
   }
 
   return (
-    <Modal opened={open} onClose={onClose} title="Create a Task">
+    <Modal opened={open} onClose={onClose} title={!!activeTask ? "Update Your Task" : "Create a Task"}>
       <Flex direction={'column'} gap={16}>
         <TextInput
           value={title}

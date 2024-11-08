@@ -43,7 +43,7 @@ export default function CreateProjectModal({
   }
 
   return (
-    <Modal opened={open} onClose={onClose} title="Create a Task">
+    <Modal opened={open} onClose={onClose} title={!!activeProject ? 'Update Your Project' : 'Create a Project'}>
       <Flex direction={'column'} gap={16}>
         <TextInput
           value={name}
