@@ -1,5 +1,15 @@
-# Mantine Next Template
+# Mantine + Valtio + Next App Router Demo Project
+##### Requires BE Branch named 'ir-api'
 
-Get started with the template by clicking `Use this template` button on the top of the page.
+## Compile and run the project
 
-[Documentation](https://mantine.dev/guides/next/)
+```bash
+# development
+$ yarn run dev
+
+# start
+$ yarn run start
+
+# build
+$ yarn run build
+```
